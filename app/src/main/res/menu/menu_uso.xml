@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.salud.admin.administradorcubrebocas.UsoActivity">
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="@string/dialog_message_delete_uso"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/trash_solid"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="@string/dialog_message_edit_uso"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/pen_solid"
+        android:visible="false"/>
+</menu>

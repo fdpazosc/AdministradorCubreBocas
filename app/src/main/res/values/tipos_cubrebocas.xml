@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos_cubrebocas_arreglo">
+        <item>Quirúrgica</item>
+        <item>FFP1</item>
+        <item>FFP2</item>
+        <item>FFP3</item>
+        <item>KN95</item>
+        <item>N95</item>
+        <item>N99</item>
+        <item>N100</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

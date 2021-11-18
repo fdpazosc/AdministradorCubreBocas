@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#546E7A</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#707E85</color>
+    <color name="colorTitle">#455A64</color>
+    <color name="colorText">#37474F</color>
+
+    <color name = "negro">#000000</color>
+    <color name = "gris">#DDDDDD</color>
+    <color name = "azul">#3C6199</color>
+    <color name = "blanco">#FFFFFF</color>
+    <color name = "verde">#CFFFDA</color>
+    <color name = "rojo">#FF0000</color>
+    <color name = "grisoscuro">#AAAAAA</color>
+    <color name = "verdeoscuro">#8FFFA9</color>
+    <color name = "rojooscuro">#FF8888</color>
+    <color name = "azulclaro">#0090FF</color>
+    <color name = "amarillo">#DDDD00</color>
+    <color name = "naranja">#F9B966</color>
+    <color name = "naranjaclaro">#FFDDC4</color>
+    <color name="azulfuerte">#0064BF</color>
+    <color name="naranjaRojo">#F15A24</color>
+    <color name="azulintranet">#03A9F4</color>
+    <color name="verdeInicio">#1FCFCB</color>
+    <color name="azuldeshabilitado">#86A5DC</color>
+    <color name="azul_footer">#2074C7</color>
+    <color name="gris_intranet_bordes">#DDDDDD</color>
+    <color name="gris_intranet_fondo">#E9E9E9</color>
+    <color name="azul_intranet">#89C4F4</color>
+    <color name="rojo_intranet">#F3565D</color>
+    <color name="amarillo_intranet">#ECBC29</color>
+    <color name="verde_intranet">#45B6AF</color>
+    <color name="gris_letra_intranet">#95A5AB</color>
+    <color name="azul_intranet_porlet">#4B8DF8</color>
+    <color name="verde_intranet_porlet">#35AA47</color>
+    <color name="rojo_mensaje_borde">#EBCCD1</color>
+    <color name="rojo_mensaje_fondo">#F2DEDE</color>
+    <color name="rojo_mensaje_letra">#A94442</color>
+
+</resources>

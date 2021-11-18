@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.salud.admin.administradorcubrebocas.ConfigActivity">
+    <item
+        android:id="@+id/action_agregar_ubicacion"
+        android:icon="@drawable/map_marked_alt_solid"
+        android:orderInCategory="100"
+        android:title="@string/dialog_message_agregar_locacion"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+</menu>

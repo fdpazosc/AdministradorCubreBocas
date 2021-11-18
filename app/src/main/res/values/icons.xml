@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fa_icon_areachart" translatable="false">&#xf1fe;</string>
+    <string name="fa_icon_piechart" translatable="false">&#xf200;</string>
+    <string name="fa_icon_linechart" translatable="false">&#xf201;</string>
+    <string name="fa_arrow_circle" translatable="false">&#xf0a9;</string>
+    <string name="fa_question_circle" translatable="false">&#xf059;</string>
+    <string name="fa_smile_o" translatable="false">&#xf118;</string>
+    <string name="fa_sad_o" translatable="false">&#xf119;</string>
+    <string name="fa_fa_minus" translatable="false">&#xf068;</string>
+    <string name="fa_list_ul" translatable="false">&#xf0ca;</string>
+    <string name="fa_flask" translatable="false">&#xf0c3;</string>
+    <string name="fa_times_circle" translatable="false">&#xf057;</string>
+
+    <string name="fa_bell" translatable="false">&#xf0f3;</string>
+    <string name="fa_bell_o" translatable="false">&#xf0a2;</string>
+    <string name="fa_bell_slash" translatable="false">&#xf1f6;</string>
+    <string name="fa_bell_slash_o" translatable="false">&#xf1f7;</string>
+
+    <string name="fa_user" translatable="false">&#xf007;</string>
+    <string name="fa_user_o" translatable="false">&#xf2c0;</string>
+    <string name="fa_search" translatable="false">&#xf002;</string>
+</resources>

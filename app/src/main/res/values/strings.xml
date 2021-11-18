@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Administrador de Cubrebocas</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="encabezados_usuarios">Lista de usuarios:</string>
+    <string name="encabezados_cubrebocas">Lista de cubrebocas:</string>
+    <string name="encabezados_usos">Lista de usos:</string>
+
+    <string name="dialog_message_add_usuario">Agregar Usuario</string>
+    <string name="dialog_message_edit_usuario">Editar Usuario</string>
+    <string name="dialog_message_delete_usuario">Eliminar Usuario</string>
+    <string name="dialog_message_configuracion">Configuración</string>
+
+    <string name="dialog_message_add_cubrebocas">Agregar Cubrebocas</string>
+    <string name="dialog_message_edit_cubrebocas">Editar Cubrebocas</string>
+    <string name="dialog_message_delete_cubrebocas">Eliminar Cubrebocas</string>
+
+    <string name="dialog_message_add_uso">Agregar Uso</string>
+    <string name="dialog_message_edit_uso">Editar Uso</string>
+    <string name="dialog_message_delete_uso">Eliminar Uso</string>
+
+    <string name="dialog_message_add_punto">Agregar Punto</string>
+    <string name="dialog_message_edit_punto">Editar Punto</string>
+    <string name="dialog_message_delete_punto">Eliminar Punto</string>
+
+    <string name="dialog_message_agregar_locacion">Agregar ubicación</string>
+
+    <string name="text_nombre_usuario">Nombre de Usuario</string>
+    <string name="text_descripcion_cubrebocas">Descripción del Cubrebocas</string>
+    <string name="text_tipo_cubrebocas">Tipo de Cubrebocas</string>
+    <string name="text_maximo_usos">Máximo de usos</string>
+    <string name="text_uso_desde_fecha">Desde</string>
+    <string name="text_uso_hasta_fecha">Hasta</string>
+    <string name="text_uso_fecha_uso">Fecha</string>
+    <string name="text_uso_hora_uso">Hora</string>
+    <string name="text_uso_lavado">¿Ya lavaste el cubrebocas despues del uso?</string>
+
+    <string name="text_titulo">Título</string>
+
+    <string name="text_descripcion">Descripción:</string>
+    <string name="text_tipo">Tipo:</string>
+    <string name="text_usos">Usos:</string>
+    <string name="text_fecha">Fecha:</string>
+    <string name="text_hora">Hora:</string>
+    <string name="text_fue_lavado">Cubrebocas lavado:</string>
+    <string name="text_si">Si</string>
+    <string name="text_no">No</string>
+
+    <string name="text_max_min">3-99</string>
+
+    <string name="text_de">/</string>
+
+    <string name="text_recordatorio">Recordatorio</string>
+
+    <string name="text_mensaje_notificacion">Por favor no olvides utilizar una de tus mascarillas</string>
+    <string name="text_mensaje_notificacion_ingles">Please, don´t forget to wear one of your masks</string>
+
+    <string name="text_mensaje_permisos">Para acceder a la configuración por favor asigne los permisos necesarios e intentelo de nuevo</string>
+
+    <string name="canal_notificaciones">No olvides utilizar tu una mascarilla</string>
+
+    <string name="text_activacion_alarmas">Recordatorio por distancia:</string>
+    <string name="text_distancia_activacion_alarmas">Distancia de activación (metros):</string>
+    <string name="text_locacion_alarmas">Lugares de activación de recordatorio:</string>
+
+    <string name="text_cancelar">Cancelar</string>
+    <string name="marcar_como_usuario_predefnito">Marcar Como Usuario Predefinido</string>
+
+    <string name="confirmacion_eliminar">¿Está seguro de eliminar los usuarios seleccionados?</string>
+
+    <string name="toolbar_cubrebocas">Usuario:</string>
+
+    <string name="error_eliminar_usuario">Ha ocurrido un error al eliminar el usuario: </string>
+    <string name="error_editar_usuario">Ha ocurrido un error al editar el usuario: </string>
+    <string name="error_agregar_usuario">Ha ocurrido un error al agregar el usuario: </string>
+
+    <string name="error_eliminar_cubrebocas">Ha ocurrido un error al eliminar el cubrebocas: </string>
+    <string name="error_editar_cubrebocas">Ha ocurrido un error al editar el cubrebocas: </string>
+    <string name="error_agregar_cubrebocas">Ha ocurrido un error al agregar el cubrebocas: </string>
+
+    <string name="error_eliminar_uso">Ha ocurrido un error al eliminar el uso</string>
+    <string name="error_editar_uso">Ha ocurrido un error al editar el uso</string>
+    <string name="error_agregar_uso">Ha ocurrido un error al agregar el uso</string>
+
+    <string name="error_eliminar_punto">Ha ocurrido un error al eliminar el punto</string>
+    <string name="error_editar_punto">Ha ocurrido un error al editar el punto</string>
+    <string name="error_agregar_punto">Ha ocurrido un error al agregar el punto</string>
+
+    <string name="title_activity_cubrebocas">CubrebocasActivity</string>
+    <string name="title_activity_uso">Usos</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAu5w08a_Iq9iNxTXqeEp-qdcPxeB8xNh8</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="text_informacion_incompleta">Infomación incompleta. Los datos no han sido guardados.</string>
+
+    <string name="text_tipo_cubrebocas_quirurgica">Quirúrgica</string>
+    <string name="text_tipo_cubrebocas_filtrante_1">Filtrante - FFP1</string>
+    <string name="text_tipo_cubrebocas_filtrante_2">Filtrante - FFP2</string>
+    <string name="text_tipo_cubrebocas_filtrante_3">Filtrante - FFP3</string>
+
+    <string name="text_alarma_activada">Alarma Activada</string>
+    <string name="text_alarma_cancelada">Alarma Cancelada</string>
+
+    <string name="text_locacion_no_encontrada">No se ha encontrado la locación solicitada</string>
+
+
+    <string name="ad_unit_id">ca-app-pub-6621130314417405/2473863403</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-6621130314417405/7021087854</string>
+    <string name="ad_app_id">ca-app-pub-6621130314417405~6413108419</string>
+</resources>

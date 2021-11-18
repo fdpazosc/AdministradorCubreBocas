@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemDeLista"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5sp"
+    android:paddingTop="5sp"
+    android:paddingRight="5sp"
+    android:paddingBottom="5sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/usuario_seleccionado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/grisoscuro"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:visibility="gone"
+            android:scaleX="1.35"
+            android:scaleY="1.35"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/list_row_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left|center_vertical"
+            android:paddingTop="@dimen/fab_margin"
+            android:paddingBottom="@dimen/fab_margin"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/list_favorite_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="right"
+            android:paddingTop="@dimen/fab_margin"
+            android:paddingBottom="@dimen/fab_margin"
+            android:textColor="@color/verde_intranet_porlet"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="@string/fa_arrow_circle"/>
+    </LinearLayout>
+</RelativeLayout>

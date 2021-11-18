@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16sp</dimen>
+    <dimen name="activities_margin">16sp</dimen>
+    <dimen name="activities_margin_button">90sp</dimen>
+</resources>

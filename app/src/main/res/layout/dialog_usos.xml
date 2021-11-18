@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/fab_margin"
+    tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editTextHoraUso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:focusable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="start|top"
+                android:hint="@string/text_uso_hora_uso"
+                android:inputType="time"
+                tools:layout_editor_absoluteX="29sp"
+                tools:layout_editor_absoluteY="170sp" />
+
+            <ImageView
+                android:layout_width="75sp"
+                android:layout_height="75sp"
+                android:layout_gravity="center_vertical|left"
+                android:background="#FFFF"
+                android:paddingTop="@dimen/activities_margin"
+                android:paddingLeft="@dimen/activities_margin"
+                android:paddingBottom="@dimen/activities_margin"
+                android:src="@drawable/clock_regular"
+                app:srcCompat="@drawable/clock_regular" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editTextFechaUso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:focusable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="start|top"
+                android:hint="@string/text_uso_fecha_uso"
+                android:inputType="date"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="170dp" />
+
+            <ImageView
+                android:layout_width="75sp"
+                android:layout_height="75sp"
+                android:layout_gravity="center_vertical|left"
+                android:background="#FFFF"
+                android:paddingTop="@dimen/activities_margin"
+                android:paddingLeft="@dimen/activities_margin"
+                android:paddingBottom="@dimen/activities_margin"
+                android:src="@drawable/calendar_alt_solid"
+                app:srcCompat="@drawable/calendar_alt_solid" />
+        </TableRow>
+
+        </TableLayout>
+
+        <CheckBox
+            android:id="@+id/checkBoxUsoLavado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_uso_lavado" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
